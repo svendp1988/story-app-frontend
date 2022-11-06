@@ -1,0 +1,19 @@
+{
+  "story": [
+    {
+      "id": 1,
+      "text": "This is the beginning of your story",
+      "imageUrl": "https://i.pinimg.com/736x/60/20/6f/60206f666025260f3080226e989dc357--media-quotes-kung-fu-panda.jpg"
+    },
+    {
+      "id": 2,
+      "text": "This is the middle of your story",
+      "imageUrl": "https://www.netflix-nederland.nl/wp-content/uploads/2019/10/dragon-ball-z-netflix-810x456.jpg"
+    },
+    {
+      "id": 3,
+      "text": "This is the end of your story",
+      "imageUrl": "https://i0.wp.com/redemptionplano.com/wp-content/uploads/2019/11/Write-Your-Story-Slides1-3how-will-your-story-end.jpg?fit=865%2C472&ssl=1"
+    }
+  ]
+}
