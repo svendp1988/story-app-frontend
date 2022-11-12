@@ -1,22 +1,10 @@
-import {
-    Button,
-    Cascader,
-    DatePicker,
-    Form,
-    Input,
-    InputNumber,
-    Radio,
-    Select,
-    Switch,
-    TreeSelect
-} from 'antd';
 import React, { useEffect, useState } from 'react';
 import CreateIntroView from './CreateIntroView';
 import CreateFormView from './CreateFormView';
 
 const CreateView = Object.freeze({
-   INTRO: 'intro',
-   FORM: 'form'
+    INTRO: 'intro',
+    FORM: 'form'
 });
 
 const CreateContainer = (props: any) => {
@@ -24,13 +12,16 @@ const CreateContainer = (props: any) => {
 
     useEffect(() => {
         console.log(view);
-        });
+    });
 
     const getContent = () => view === CreateView.INTRO ?
         <CreateIntroView/> : <CreateFormView/>;
 
 
-    return ({getContent}
+    return (
+        <>
+            { getContent() }
+        </>
         // <Form
         //     labelCol={{ span: 4 }}
         //     wrapperCol={{ span: 14 }}
